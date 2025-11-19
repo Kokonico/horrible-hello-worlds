@@ -166,5 +166,4 @@ with open(
                 )
             )
         )
-        + chr(len(repr(EOFError())))
     )
