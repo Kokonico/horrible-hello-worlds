@@ -31,7 +31,7 @@ with open(
             )
         )
     )
-    + chr(ord(max(str(print()))))
+    + chr(ord(max(str(exec(str(dir()))))))
     + chr(ord(max(str(type(tuple())))))
     + chr(ord(max(str(type(vars()))))),
     chr(next(iter(reversed(range(ord(max(str(object())))))))),
@@ -91,7 +91,7 @@ with open(
                 )
             )
         )
-        + chr(ord(max(str(print()))))
+        + chr(ord(max(str(exec(str(dir()))))))
         + min(str(dir()))
         + chr(
             next(
@@ -138,7 +138,7 @@ with open(
                 )
             )
         )
-        + chr(ord(max(str(print()))))
+        + chr(ord(max(str(exec(str(dir()))))))
         + chr(next(iter(reversed(range(ord(max(str(type(bool())))))))))
         + chr(
             len(
